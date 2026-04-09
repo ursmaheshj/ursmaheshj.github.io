@@ -592,4 +592,3 @@ jobs:
           echo "**Total Impact:** ~70% smaller pages, ~65% faster load times" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "---" >> $GITHUB_STEP_SUMMARY
-          echo "*View full documentation: [PERFORMANCE_WORKFLOWS.md](../PERFORMANCE_WORKFLOWS.md)*" >> $GITHUB_STEP_SUMMARY

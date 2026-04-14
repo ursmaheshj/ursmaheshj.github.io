@@ -285,7 +285,7 @@ window.PORTFOLIO_DATA = {
       "stack": ["Python", "Django", "API"],
       "details": [
         "Integrated OpenMeteo API to fetch real-time weather data based on user input.",
-        "Designed a responsive UI to display weather information, including temperature, humidity, and forecast.",
+        "Used external geocoding API to convert location names into coordinates for accurate weather retrieval.",
         "Implemented error handling for invalid locations and API failures to ensure a smooth user experience."
       ],
       "links": [

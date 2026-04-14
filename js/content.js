@@ -33,8 +33,8 @@ window.PORTFOLIO_DATA = {
    * ─────────────────────────────────────────────────────────────────────────
    */
   "profile": {
-    "name": "Chanandler Bong",
-    "role": "Statistical Analysis · Sarcasm · Workplace Humor",
+    "name": "Mahesh Jadhav",
+    "role": "Python developer",
     "affiliation": null,
     
     // Profile photo: Add your image to images/ folder, then update path below
@@ -42,29 +42,29 @@ window.PORTFOLIO_DATA = {
     "photoUrl": "images/profile.jpg",
     
     "address": [
-      "15 Yemen Road, Yemen",
+      "Pune, Maharashtra, India",
     ],
     
     // Social links — Edit URLs and add/remove as needed
     "social": [
-      { "label": "GitHub",   "url": "#",                         "icon": "fa-brands fa-github" },
-      { "label": "LinkedIn", "url": "#",                         "icon": "fa-brands fa-linkedin-in" },
-      { "label": "Medium",   "url": "#",                         "icon": "fa-brands fa-medium" },
-      { "label": "Instagram",   "url": "#",                         "icon": "fa-brands fa-instagram" },
-      { "label": "Email",    "url": "mailto:chandler@coffee.cup", "icon": "fa-solid fa-envelope" }
+      { "label": "GitHub",   "url": "https://github.com/ursmaheshj", "icon": "fa-brands fa-github" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ursmaheshj/", "icon": "fa-brands fa-linkedin-in" },
+      { "label": "Medium",   "url": "https://ursmaheshj.medium.com/", "icon": "fa-brands fa-medium" },
+      { "label": "Instagram",   "url": "https://instagram.com/ursmaheshj", "icon": "fa-brands fa-instagram" },
+      { "label": "Email",    "url": "mailto:mj241199@gmail.com", "icon": "fa-solid fa-envelope" }
     ],
     
     // Medium RSS feed URL — Set to your Medium profile feed to auto-fetch articles
     // Format: "https://YOUR-USERNAME.medium.com/feed"
     // Set to null to disable live fetch
-    "mediumFeedUrl": "null",
+    "mediumFeedUrl": "https://ursmaheshj.medium.com/feed",
     
     // About section — Your introduction (displayed on homepage)
-    "about": "I work in something involving numbers and data reconfiguration—honestly, even I'm not entirely sure what I do. But I do know how to make deadlines funny, navigate every social situation with deflection humor, and somehow get the job done despite looking like I'm perpetually unprepared. Could I BE any more overqualified?",
+    "about": "I specialize in backend engineering where performance and precision aren't optional. My career has been a transition from mastering the Django MVT at TCS to engineering high-concurrency cloud solutions at HCL. I believe in direct communication, technical rigor, and the fact that if a process isn't automated, it's a bug. Currently, I'm leveraging AWS Rekognition and FastAPI to transform legacy engineering data into revenue-generating assets.",
     
     // Signature points — 3 key statements about your work philosophy
     "signaturePoints": [
-      "Delivering results with a punchline attached—because if you're not laughing, how would you know if I'm panicking?",
+      "I value arguments that lead to better code more than polite agreement that leads to technical debt.",
       "Turning awkward meetings into comedy sketches without sacrificing the actual work.",
       "Making the incomprehensible completely digestible through sheer force of personality."
     ]
@@ -98,16 +98,16 @@ window.PORTFOLIO_DATA = {
    * Keep it concise - 2-3 sentences that capture your expertise and value
    */
   "cv": {
-    "summary": "Professional data analyst and professional self-saboteur. Excellent at making spreadsheets entertaining and workplace dysfunction manageable. Proven ability to stay employed despite appearing to have no idea what's happening. Fluent in excuses and Excel. References available upon request—assuming they'll still take my calls.",
+    "summary": "Senior Python Developer with 5+ years of experience delivering robust backend systems and cloud infrastructure. Expert in FastAPI, Django, and AWS ecosystem orchestration. Proven track record of automating complex workflows and migrating legacy architectures to modern, scalable stacks.",
     
     /**
      * Languages - Spoken/written languages with proficiency levels
      * Format: array of objects with language name and proficiency level
      */
     "languages": [
-      { "language": "English", "proficiency": "Sarcasm Expert" },
-      { "language": "Humor", "proficiency": "Native" },
-      { "language": "Self-Deprecation", "proficiency": "Fluent" }
+      { "language": "English", "proficiency": "Fluent" },
+      { "language": "Hindi", "proficiency": "Native" },
+      { "language": "Marathi", "proficiency": "Native" }
     ],
     
     /**
@@ -116,22 +116,22 @@ window.PORTFOLIO_DATA = {
      */
     "achievements": [
       {
-        "title": "Survived the Corporate World Without Getting Fired",
-        "issuer": "Statistical Analysis & Data Reconfiguration, Inc.",
+        "title": "Star Employee Award",
+        "issuer": "TCS",
         "date": "2010-2024",
-        "description": "Multiple departments, zero nervous breakdowns worth reporting"
+        "description": "Recognized for excellence in performance and cross-functional teamwork at TCS."
       },
       {
-        "title": "Made People Laugh During Mandatory Meetings",
-        "issuer": "Office Life Achievement",
+        "title": "AI Innovation Winner",
+        "issuer": "TCS",
         "date": "Ongoing",
-        "description": "Consistently turning awkward silence into actual entertainment"
+        "description": "Developed a Django-based AI application for automated pattern generation."
       },
       {
-        "title": "Reformed Smoker (Well, Mostly)",
-        "issuer": "Internal Recognition",
-        "date": "2009-Present",
-        "description": "Quit cold turkey and proved nobody actually believed me until I stuck with it"
+        "title": "Revenue Optimization",
+        "issuer": "John Deere",
+        "date": "2026",
+        "description": "Unlocked new aftermarket revenue streams at John Deere by automating untracked part identification."
       }
     ]
   },
@@ -169,50 +169,50 @@ window.PORTFOLIO_DATA = {
   "experience": [
     {
       "type": "work",
-      "period": "2014 – Present",
-      "role": "Advertisement Executive",
-      "company": "Pierce and Flynn",
+      "period": "Nov 2024 – Present",
+      "role": "Python Developer",
+      "company": "HCL Technologies - John Deere",
       "summary": "Finally got out of data reconfiguration and into a field where I can use my actual skills: making things sound better than they are.",
       "highlights": [
-        "Convinced people to buy things they didn't know they needed.",
-        "Survived learning entire new industry through panic and improvisation.",
-        "Made partner while somehow still being the office joke."
+        "Engineered an pipeline using AWS Rekognition to automate data extraction from legacy engineering diagrams.",
+        "Deployed end-to-end cloud-native pipelines and APIs leveraging AWS ECS, Lambda, S3, OpenSearch, and cloudwatch for monitoring and alerting.",
+        "Developed high-performance REST APIs from scratch using FastAPI to serve complex coordinate data to downstream users."
       ]
     },
     {
       "type": "work",
-      "period": "1996 – 2014",
-      "role": "Statistical Analysis & Data Reconfiguration",
-      "company": "Ziegler Fibber Warner",
+      "period": "Aug 2020 – Oct 2024",
+      "role": "Python Developer",
+      "company": "TCS (Tata Consultancy Services)",
       "summary": "Still genuinely unsure what I did here. Something involving data. Numbers were involved. Very important.",
       "highlights": [
-        "Worked in an office for almost twenty years.",
-        "Nobody really knew what I did, including me.",
-        "Got promoted despite this fundamental ambiguity."
+        "Architected enterprise-grade web applications using Django Framework.",
+        "Reduced manual operational overhead by 60% through Ansible and Python-based service automation.",
+        "Led the migration of large-scale datasets from CDH to CDP, ensuring zero data loss and compatibility."
       ]
     },
     {
       "type": "education",
       "period": "1989",
-      "role": "High School Diploma",
-      "company": "New York Public Schools",
+      "role": "Masters in Computer Applications - CGPA 8.75",
+      "company": "SASTRA University, Thanjavur",
       "summary": "Survived high school through humor and avoiding eye contact.",
       "highlights": [
-        "Did not get expelled",
-        "Made friends who would stick around for decades",
-        "Mastered the art of the cutting one-liner"
+        "Mastered advanced Python frameworks, including Django and fastapi for high-performance web applications.",
+        "Specialized in Artificial Intelligence and Machine Learning concepts, applying them to real-world data processing tasks.",
+        "Developed expertise in Cloud Computing and DevOps, including AWS deployment and automated CI/CD pipelines."
       ]
     },
     {
       "type": "education",
       "period": "1996",
-      "role": "Self-directed Learning",
-      "company": "School of Hard Knocks and Bad Relationships",
-      "summary": "Continuous education in life, love, and learning to stop being your own worst enemy.",
+      "role": "Bachelor's in Computer Science - CGPA 8.91",
+      "company": "MGM's College, Nanded",
+      "summary": "",
       "highlights": [
-        "Therapy (sooooo much therapy)",
-        "Long-term relationship management",
-        "Growing up without completely exploding"
+        "Learned fundamental programming languages including C, C++, Java, and python to build robust logic foundations.",
+        "Studied core pillars of technology like Operating Systems, Computer Networks, and System Security.",
+        "Gained practical experience in Web Development and RDBMS, focusing on SQL queries."
       ]
     }
   ],
@@ -233,43 +233,45 @@ window.PORTFOLIO_DATA = {
    */
   "projects": [
     {
-      "title": "Could I BE Any More Organized? (Data Filing System)",
+      "title": "Student Management System",
       "year": "2010",
-      "summary": "A revolutionary approach to storing numbers in files in a way that makes sense. Shocking, I know.",
+      "summary": "A web application built with Django to manage student records, courses, and grades. It was designed to streamline administrative tasks for educational institutions.",
       // "impact": "Made spreadsheets slightly less terrifying.",
       "images": [
-        "https://unsplash.com/photos/OXmym9cuaEY/download?force=true&w=640",
-        "https://unsplash.com/photos/zoCDWPuiRuA/download?force=true&w=640",
+        "images/projects/student_management1.png",
+        "images/projects/student_management2.png",
+        "images/projects/student_management3.png",
         // "images/projects/xyz.png",
       ],
-      "stack": ["Excel", "Procrastination", "Last-Minute Panic"],
+      "stack": ["Python", "Django", "Authorization", "CRUD Operations"],
       "details": [
-        "Developed a filing system that actually makes sense.",
-        "Color-coded spreadsheets so they look intentional instead of chaotic.",
-        "Survived an office audit. Barely."
+        "Implemented user authentication and role-based access control.",
+        "Designed a responsive UI for easy navigation and data entry.",
+        "Optimized database queries to handle large volumes of student data efficiently."
       ],
       "links": [
-        { "label": "View System", "url": "#" },
-        { "label": "Do Not Replicate", "url": "#" }
+        { "label": "Github repo", "url": "https://github.com/ursmaheshj/Student_Management" }
       ]
     },
     {
-      "title": "The Breakup Newsletter Generator",
+      "title": "pgMate",
       "year": "2008",
-      "summary": "An automated system for sending increasingly awkward emails to uh... well, a lot of people. Sometimes you need to end things via technology.",
+      "summary": "Django application for managing PG accommodations!",
       // "impact": "Perfected the art of digital ghosting.",
       "images": [
-        "https://unsplash.com/photos/Y_LgXwQEx2c/download?force=true&w=640",
-        // "images/projects/xyz.png"
+        "images/projects/pgmate1.png",
+        "images/projects/pgmate2.png",
+        "images/projects/pgmate3.png",
       ],
-      "stack": ["JavaScript", "Emotional Avoidance"],
+      "stack": ["Python", "Django", "Role based access control", "CRUD Operations"],
       "details": [
-        "Automated the entire relationship-ending process.",
-        "Added template options for different situations.",
-        "Surprisingly effective, though emotionally devastating."
+        "Custom User Model: Extended AbstractUser to include a user_role.",
+        "Authentication with role-based access control.",
+        "Multi-Role Dashboards: Customized interfaces for PG owner and PG seeker.",
+        "Search and Filtering: Implemented search functionality for PG seekers to find accommodations based on location, price, and amenities."
       ],
       "links": [
-        { "label": "Don't Look At This", "url": "#" }
+        { "label": "Github repo", "url": "https://github.com/ursmaheshj/pgMate" }
       ]
     },
     {
@@ -428,13 +430,14 @@ window.PORTFOLIO_DATA = {
    * ─────────────────────────────────────────────────────────────────────────
    */
   "contact": {
-    "copy": "I'm interested in opportunities where I can contribute my unique blend of expertise, humor, and questionable life choices. Whether it's contract work, collaboration, or just someone who gets my jokes—let's talk. Fair warning: I deflect with humor and over-explain things. It's a condition.",
+    "copy": "I’m interested in projects where technical challenges are high and the 'fluff' is low. If you need a developer who prioritizes system integrity and isn't afraid to challenge the status quo to get to a better solution—let’s talk. I keep my communication direct and my code cleaner.",
     "resumeUrl": "#",
     "links": [
-      { "label": "Email",    "faIcon": "fa-solid fa-envelope",     "value": "chandler@coffee.cup",          "url": "mailto:chandler@coffee.cup" },
-      { "label": "LinkedIn", "faIcon": "fa-brands fa-linkedin-in", "value": "linkedin.com/in/chandler", "url": "#" },
-      { "label": "GitHub",   "faIcon": "fa-brands fa-github",      "value": "github.com/can-i-be",      "url": "#" },
-      { "label": "Writing",  "faIcon": "fa-brands fa-medium",      "value": "Read my rambling thoughts",           "url": "blog.html" }
+      { "label": "Email",    "faIcon": "fa-solid fa-envelope",     "value": "mj241199@gmail.com", "url": "mailto:mj241199@gmail.com" },
+      { "label": "LinkedIn", "faIcon": "fa-brands fa-linkedin-in", "value": "linkedin.com/in/ursmaheshj", "url": "https://www.linkedin.com/in/ursmaheshj/" },
+      { "label": "GitHub",   "faIcon": "fa-brands fa-github",      "value": "github.com/ursmaheshj", "url": "https://github.com/ursmaheshj" },
+      { "label": "Instagram",  "faIcon": "fa-brands fa-instagram",      "value": "instagram.com/ursmaheshj", "url": "https://instagram.com/ursmaheshj" },
+      { "label": "Writing",  "faIcon": "fa-brands fa-medium",      "value": "read my rambling thoughts", "url": "blog.html" },
     ]
   },
 

@@ -236,12 +236,11 @@ window.PORTFOLIO_DATA = {
       "title": "Student Management System",
       "year": "2010",
       "summary": "A web application built with Django to manage student records, courses, and grades. It was designed to streamline administrative tasks for educational institutions.",
-      // "impact": "Made spreadsheets slightly less terrifying.",
+      // "impact": "Better than Excel spreadsheets, but still not as good as a real human administrator.",
       "images": [
         "images/projects/student_management1.png",
         "images/projects/student_management2.png",
         "images/projects/student_management3.png",
-        // "images/projects/xyz.png",
       ],
       "stack": ["Python", "Django", "Authorization", "CRUD Operations"],
       "details": [
@@ -257,7 +256,7 @@ window.PORTFOLIO_DATA = {
       "title": "pgMate",
       "year": "2008",
       "summary": "Django application for managing PG accommodations!",
-      // "impact": "Perfected the art of digital ghosting.",
+      // "impact": "Because finding a PG is as stressful as finding a job, so why not make it worse with a web app?",
       "images": [
         "images/projects/pgmate1.png",
         "images/projects/pgmate2.png",
@@ -275,41 +274,45 @@ window.PORTFOLIO_DATA = {
       ]
     },
     {
-      "title": "Could I BE Any More Awkward? (Conference Chat App)",
-      "year": "2015",
-      "summary": "A tool for making conversation starters less painful at networking events. Spoiler: they're always going to be awkward, but at least you have a script now.",
-      "impact": "Reduced cold-sweat moments from 100% to 85% of social interactions.",
+      "title": "Weather forecast application",
+      "year": "2023",
+      "summary": "A Django-based web application that provides real-time weather forecasts for any location. It integrates with the OpenWeatherMap API to fetch current weather data and displays it in a user-friendly interface.",
+      // "impact": "",
       "images": [
-        "https://unsplash.com/photos/nN5L5GXKFz8/download?force=true&w=640",
+        "images/projects/weatherapp1.png",
+        "images/projects/weatherapp2.png",
       ],
-      "stack": ["JavaScript", "Self-Help Books", "Anxiety Management"],
+      "stack": ["Python", "Django", "API"],
       "details": [
-        "Built conversation starters for every networking scenario.",
-        "Included emergency exit strategies for dead conversation.",
-        "A work in progress, like everything in my life."
+        "Integrated OpenMeteo API to fetch real-time weather data based on user input.",
+        "Designed a responsive UI to display weather information, including temperature, humidity, and forecast.",
+        "Implemented error handling for invalid locations and API failures to ensure a smooth user experience."
       ],
       "links": [
-        { "label": "Use At Your Own Risk", "url": "#" }
+        { "label": "Github repo", "url": "https://github.com/ursmaheshj/weather_application" }
       ]
     },
     {
-      "title": "The Chandler Portfolio (This Very Website)",
+      "title": "mj-folio (This Very Website)",
       "year": "2026",
-      "summary": "A personal site disguised as a professional portfolio but actually just a really elaborate way to explain myself to people who don't get my humor. Meta? Absolutely.",
-      "impact": "Achieves confusing people while also impressing them. Simultaneously.",
+      "summary": "A portfolio website built with HTML, CSS, and JavaScript to showcase my projects, skills, and experience. It features a clean design with interactive elements to engage visitors.",
+      "impact": "Because if I can't make a website about myself, who can I make a website about?",
       "images": [
-        "https://unsplash.com/photos/mou0S7ViElQ/download?force=true&w=640",
-        "https://unsplash.com/photos/zoCDWPuiRuA/download?force=true&w=640",
-        "https://unsplash.com/photos/Y_LgXwQEx2c/download?force=true&w=640"
+        "images/projects/mjfolio1.png",
+        "images/projects/mjfolio2.png",
+        "images/projects/mjfolio3.png",
+        "images/projects/mjfolio4.png",
+        "images/projects/mjfolio5.png",
       ],
-      "stack": ["HTML", "CSS", "JavaScript", "Excessive Self-Awareness"],
+      "stack": ["HTML", "CSS", "JavaScript"],
       "details": [
-        "Built a portfolio that's actually fun to read.",
-        "Managed to be professional AND funny. Mostly.",
-        "Proves I can stick with something. Shocking."
+        "Designed a responsive layout to ensure optimal viewing across devices.",
+        "Fetched blog posts dynamically from Medium RSS feed to keep content fresh without manual updates.",
+        "Structured content in JSON format for easy updates and maintenance."
       ],
       "links": [
-        { "label": "You're Already Here", "url": "#top" }
+        { "label": "Live Demo", "url": "https://ursmaheshj.github.io/mj-folio/" },
+        { "label": "Github repo", "url": "https://github.com/ursmaheshj/mj-folio" }
       ]
     }
   ],

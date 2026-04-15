@@ -245,8 +245,9 @@ window.PORTFOLIO_DATA = {
       "stack": ["Python", "Django", "Authorization", "CRUD Operations"],
       "details": [
         "Implemented user authentication and role-based access control.",
-        "Designed a responsive UI for easy navigation and data entry.",
-        "Optimized database queries to handle large volumes of student data efficiently."
+        "Optimized QuerySets to retrieve data efficiently and reduce load.",
+        "Created custom EmailAuthentication backend to allow login with either username or email.",
+        "Used Whitenoise for efficient static file serving"
       ],
       "links": [
         { "label": "Github repo", "url": "https://github.com/ursmaheshj/Student_Management" }
@@ -264,10 +265,10 @@ window.PORTFOLIO_DATA = {
       ],
       "stack": ["Python", "Django", "Role based access control", "CRUD Operations"],
       "details": [
-        "Custom User Model: Extended AbstractUser to include a user_role.",
-        "Authentication with role-based access control.",
-        "Multi-Role Dashboards: Customized interfaces for PG owner and PG seeker.",
-        "Search and Filtering: Implemented search functionality for PG seekers to find accommodations based on location, price, and amenities."
+        "Custom User Model creation by extending AbstractUser.",
+        "Provided authentication with role-based access control.",
+        "Customized interfaces for PG owner and PG seeker with multi-dashboard functionality.",
+        "Implemented search functionality for PG seekers to find accommodations based on location, price, and amenities."
       ],
       "links": [
         { "label": "Github repo", "url": "https://github.com/ursmaheshj/pgMate" }
@@ -276,7 +277,7 @@ window.PORTFOLIO_DATA = {
     {
       "title": "Weather forecast application",
       "year": "2023",
-      "summary": "A Django-based web application that provides real-time weather forecasts for any location. It integrates with the OpenWeatherMap API to fetch current weather data and displays it in a user-friendly interface.",
+      "summary": "A Django-based web application that provides real-time weather forecasts for any location. Users can search for their city and receive current weather conditions, temperature, humidity, and customized tips.",
       // "impact": "",
       "images": [
         "images/projects/weatherapp1.png",
@@ -296,7 +297,7 @@ window.PORTFOLIO_DATA = {
       "title": "mj-folio (This Very Website)",
       "year": "2026",
       "summary": "A portfolio website built with HTML, CSS, and JavaScript to showcase my projects, skills, and experience. It features a clean design with interactive elements to engage visitors.",
-      "impact": "Because if I can't make a website about myself, who can I make a website about?",
+      // "impact": "Because if I can't make a website about myself, who can I make a website about?",
       "images": [
         "images/projects/mjfolio1.png",
         "images/projects/mjfolio2.png",
@@ -307,7 +308,7 @@ window.PORTFOLIO_DATA = {
       "stack": ["HTML", "CSS", "JavaScript"],
       "details": [
         "Designed a responsive layout to ensure optimal viewing across devices.",
-        "Fetched blog posts dynamically from Medium RSS feed to keep content fresh without manual updates.",
+        "Shows blog posts dynamically from Medium RSS feed to keep content fresh without manual updates.",
         "Structured content in JSON format for easy updates and maintenance."
       ],
       "links": [

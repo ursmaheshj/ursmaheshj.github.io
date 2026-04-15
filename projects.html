@@ -50,12 +50,12 @@
   <script src="js/shared.js"></script>
   <script src="js/interactive.js" defer></script>
   <script>
-    const projectState = { filter: "All" };
+    const projectState = { filter: "All", highlightedProjectIndex: null };
 
     // Get all unique technologies from project stacks
     function getProjectTechnologies() {
       const allTech = new Set();
-      data.projects.forEach(p => {
+      (window.PORTFOLIO_DATA?.projects || []).forEach(p => {
         (p.stack || []).forEach(tech => allTech.add(tech));
       });
       return ["All", ...Array.from(allTech).sort()];
@@ -71,10 +71,11 @@
     }
 
     function renderProjects() {
+      const projects = window.PORTFOLIO_DATA?.projects || [];
       const filtered =
         projectState.filter === "All"
-          ? data.projects
-          : data.projects.filter((p) => (p.stack || []).includes(projectState.filter));
+          ? projects
+          : projects.filter((p) => (p.stack || []).includes(projectState.filter));
 
       document.getElementById("project-grid").innerHTML = filtered
         .map((project, index) => {
@@ -82,7 +83,7 @@
           const hasMultipleImages = hasImages && project.images.length > 1;
           
           return `
-            <article class="project-card reveal">
+            <article class="project-card reveal" data-project-index="${index}" role="button" tabindex="0">
               ${hasImages ? `
                 <div class="project-card__image-slider" data-project-id="${index}">
                   <div class="project-card__images">
@@ -132,9 +133,10 @@
         .join("");
       setupReveal();
       initializeProjectSliders();
+      initializeProjectCards();
     }
 
-    // Image slider functionality
+    // Image slider functionality for cards
     function initializeProjectSliders() {
       document.querySelectorAll('.project-card__image-slider').forEach(slider => {
         const images = slider.querySelectorAll('.project-card__image');
@@ -152,6 +154,7 @@
         };
 
         slider.addEventListener('click', (e) => {
+          e.stopPropagation(); // Prevent card click from highlighting
           const btn = e.target.closest('[data-action]');
           const dot = e.target.closest('[data-index]');
           
@@ -175,12 +178,81 @@
       });
     }
 
-    document.addEventListener("click", (e) => {
+    // Project card highlight functionality
+    function initializeProjectCards() {
+      document.querySelectorAll('.project-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+          // Don't highlight if clicking on links
+          if (e.target.closest('a')) return;
+          
+          const projectIndex = parseInt(card.dataset.projectIndex);
+          highlightProjectCard(projectIndex);
+        });
+        
+        // Make images clickable to highlight
+        const images = card.querySelectorAll('.project-card__image');
+        images.forEach(img => {
+          img.style.cursor = 'pointer';
+          img.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const projectIndex = parseInt(card.dataset.projectIndex);
+            highlightProjectCard(projectIndex);
+          });
+        });
+
+        card.addEventListener('keypress', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            const projectIndex = parseInt(card.dataset.projectIndex);
+            highlightProjectCard(projectIndex);
+          }
+        });
+      });
+    }
+
+    function highlightProjectCard(projectIndex) {
+      const projectGrid = document.getElementById('project-grid');
+      const cards = document.querySelectorAll('.project-card');
+      
+      // Remove highlight from all cards
+      cards.forEach(card => card.classList.remove('is-highlighted'));
+      projectGrid.classList.remove('has-highlighted');
+      
+      // Add highlight to selected card
+      const selectedCard = document.querySelector(`[data-project-index="${projectIndex}"]`);
+      if (selectedCard) {
+        selectedCard.classList.add('is-highlighted');
+        projectGrid.classList.add('has-highlighted');
+        projectState.highlightedProjectIndex = projectIndex;
+      }
+    }
+
+    function clearHighlight() {
+      const projectGrid = document.getElementById('project-grid');
+      const cards = document.querySelectorAll('.project-card');
+      cards.forEach(card => card.classList.remove('is-highlighted'));
+      projectGrid.classList.remove('has-highlighted');
+      projectState.highlightedProjectIndex = null;
+    }
+
+    // Clear highlight when clicking on background
+    document.addEventListener('click', (e) => {
       const pf = e.target.closest("[data-project-filter]");
+      const projectCard = e.target.closest('.project-card');
+      
       if (pf) {
         projectState.filter = pf.dataset.projectFilter;
         renderProjectFilters();
         renderProjects();
+        clearHighlight();
+      } else if (!projectCard && projectState.highlightedProjectIndex !== null) {
+        clearHighlight();
+      }
+    });
+
+    // Close highlight on ESC key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && projectState.highlightedProjectIndex !== null) {
+        clearHighlight();
       }
     });
 

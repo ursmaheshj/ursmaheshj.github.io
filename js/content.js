@@ -325,32 +325,32 @@ window.PORTFOLIO_DATA = {
    */
   "blogs": [
     {
-      "title": "Could I BE Any More Afraid of Commitment? A Technical Deep Dive",
-      "platform": "Medium",
-      "date": "Mar 2026",
-      "excerpt": "Why I've started three projects, abandoned five relationships, and only committed to one database. Mostly.",
-      "url": "#"
-    },
-    {
-      "title": "The Art of Looking Busy When You Have No Idea What You're Doing",
-      "platform": "Hashnode",
-      "date": "Jan 2026",
-      "excerpt": "Strategies for surviving corporate life through strategic nodding and perfectly timed interruptions.",
-      "url": "#"
-    },
-    {
-      "title": "Why Your Resume Should Have A Sense Of Humor",
-      "platform": "dev.to",
-      "date": "Nov 2025",
-      "excerpt": "If they're not laughing, they're not hiring. Probably. I don't make the rules. Actually, I do, and they're terrible.",
-      "url": "#"
-    },
-    {
-      "title": "Sarcasm As A Career Strategy: A Retrospective",
+      "title": "What is Normalization?",
       "platform": "LinkedIn",
-      "date": "Aug 2025",
-      "excerpt": "I survived 20 years in corporate America on barely concealed disdain and well-timed one-liners. You can too.",
-      "url": "#"
+      "date": "Mar 2025",
+      "excerpt": "Normalization is the process of effectively designing a #database to organize data in a manner that avoids data #redundancy and improves data integrity by structuring tables and relationships according to specific rules.",
+      "url": "https://www.linkedin.com/posts/ursmaheshj_normalization-database-redundancy-activity-7309930746884849665-pt-E?utm_source=share&utm_medium=member_desktop&rcm=ACoAACfx-YABh76TRm3vHrX-5pS-iW38bENlP88"
+    },
+    {
+      "title": "Internet cookies",
+      "platform": "LinkedIn",
+      "date": "Feb 2025",
+      "excerpt": "After world wide web boom internet rapidly got a fame which led more and more businesses to transfer onto internet including financial organization,",
+      "url": "https://www.linkedin.com/pulse/internet-cookies-mahesh-jadhav-nqsif"
+    },
+    {
+      "title": "Exploring Most Popular Regression Metrics in Data Science",
+      "platform": "LinkedIn",
+      "date": "June 2023",
+      "excerpt": "While applying regression on real-world data it is necessary to make sure our model is optimized to predict correct output and make fewer errors. ",
+      "url": "https://www.linkedin.com/pulse/most-popular-regression-metrics-mahesh-jadhav/"
+    },
+    {
+      "title": "BLOODnegative - A Dynamic Website for Blood Donation",
+      "platform": "GitHub Pages",
+      "date": "Jul 2022",
+      "excerpt": "my very first college project where I developed a fully functional dynamic website and deployed over internet using InfinityFree.",
+      "url": "https://ursmaheshj.github.io/BLOODnegative/"
     }
   ],
 

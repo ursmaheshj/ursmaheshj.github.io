@@ -217,12 +217,55 @@
       cards.forEach(card => card.classList.remove('is-highlighted'));
       projectGrid.classList.remove('has-highlighted');
       
+      // Remove existing close button
+      const existingCloseBtn = document.getElementById('project-close-btn');
+      if (existingCloseBtn) existingCloseBtn.remove();
+      
       // Add highlight to selected card
       const selectedCard = document.querySelector(`[data-project-index="${projectIndex}"]`);
       if (selectedCard) {
         selectedCard.classList.add('is-highlighted');
         projectGrid.classList.add('has-highlighted');
         projectState.highlightedProjectIndex = projectIndex;
+        
+        // Create and add close button on card
+        const closeBtn = document.createElement('button');
+        closeBtn.id = 'project-close-btn';
+        closeBtn.innerHTML = '&times;';
+        closeBtn.setAttribute('aria-label', 'Close project details');
+        closeBtn.style.cssText = `
+          position: absolute;
+          top: 12px;
+          right: 12px;
+          width: 28px;
+          height: 28px;
+          background: var(--accent);
+          color: white;
+          border: none;
+          border-radius: 50%;
+          font-size: 20px;
+          cursor: pointer;
+          z-index: 102;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 150ms ease;
+          padding: 0;
+          line-height: 1;
+        `;
+        closeBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          clearHighlight();
+        });
+        closeBtn.addEventListener('mouseover', () => {
+          closeBtn.style.opacity = '0.8';
+          closeBtn.style.transform = 'scale(1.05)';
+        });
+        closeBtn.addEventListener('mouseout', () => {
+          closeBtn.style.opacity = '1';
+          closeBtn.style.transform = 'scale(1)';
+        });
+        selectedCard.appendChild(closeBtn);
       }
     }
 
@@ -232,6 +275,10 @@
       cards.forEach(card => card.classList.remove('is-highlighted'));
       projectGrid.classList.remove('has-highlighted');
       projectState.highlightedProjectIndex = null;
+      
+      // Remove close button
+      const closeBtn = document.getElementById('project-close-btn');
+      if (closeBtn) closeBtn.remove();
     }
 
     // Clear highlight when clicking on background

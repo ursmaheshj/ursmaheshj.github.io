@@ -706,33 +706,6 @@ main {
   scale: 1 !important;
 }
 
-.project-card.is-highlighted::after {
-  content: '✕';
-  position: fixed;
-  top: 20px;
-  right: 30px;
-  width: 40px;
-  height: 40px;
-  background: var(--accent);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  font-size: 24px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 102;
-  transition: all 200ms ease;
-  line-height: 1;
-  padding: 0;
-}
-
-.project-card.is-highlighted::after:hover {
-  background: var(--accent-dark, var(--accent));
-  transform: scale(1.1);
-}
-
 .project-card.is-highlighted:hover {
   transform: translate(-50%, -50%) !important;
   box-shadow: 0 20px 100px rgba(0, 0, 0, 0.5) !important;

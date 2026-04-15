@@ -315,6 +315,27 @@ window.PORTFOLIO_DATA = {
         { "label": "Live Demo", "url": "https://ursmaheshj.github.io/mj-folio/" },
         { "label": "Github repo", "url": "https://github.com/ursmaheshj/mj-folio" }
       ]
+    },
+    {
+      "title": "Web Scraping with Selenium and Python",
+      "year": "2026",
+      "summary": "A web scraping project that demonstrates how to use Selenium and Python to extract data from websites.",
+      // "impact": "Because if I can't make a website about myself, who can I make a website about?",
+      "images": [
+        "images/projects/webscraping1.png",
+        "images/projects/webscraping2.png",
+        "images/projects/webscraping3.png",
+      ],
+      "stack": ["Python", "Selenium", "JavaScript"],
+      "details": [
+        "Scraped dynamic content from websites that require JavaScript rendering using Selenium WebDriver.",
+        "Implemented data extraction logic to collect relevant information and store it in a structured format.",
+        "Handled challenges such as pagination, form submissions, and anti-scraping measures to ensure successful data retrieval."
+      ],
+      "links": [
+        { "label": "Blog", "url": "https://ursmaheshj.medium.com/create-your-own-dataset-a-step-by-step-guide-to-web-scraping-using-selenium-and-python-b4a6da73b71d" },
+        { "label": "Github repo", "url": "https://github.com/ursmaheshj/WebScraping_with_Selenium_and_Python" }
+      ]
     }
   ],
   /**

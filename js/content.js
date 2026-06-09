@@ -98,7 +98,7 @@ window.PORTFOLIO_DATA = {
    * Keep it concise - 2-3 sentences that capture your expertise and value
    */
   "cv": {
-    "summary": "Senior Python Developer with 5+ years of experience delivering robust backend systems and cloud infrastructure. Expert in FastAPI, Django, and AWS ecosystem orchestration. Proven track record of automating complex workflows and migrating legacy architectures to modern, scalable stacks.",
+    "summary": "Senior Backend Engineer with 5.9 years of experience designing, developing, testing, and deploying scalable Python backends. Proven expertise in leveraging the Django framework to deliver high-quality solutions. Deployed event driven AWS architectures utilizing ECS, Lambda, and OpenSearch alongside AWS Rekognition to optimize enterprise search and data pipelines. Expert at collaborating with cross functional teams to achieve project goals. Passionate about adopting new technologies and staying updated with industry trends.",
     
     /**
      * Languages - Spoken/written languages with proficiency levels
@@ -143,20 +143,33 @@ window.PORTFOLIO_DATA = {
    * Simple array of skill names - displayed as pills/buttons on CV page
    */
   "skills": [
-    "Data Entry",
-    "Excel Spreadsheets",
-    "Awkward Humor",
-    "Deflection",
-    "Over-Thinking",
-    "Sarcasm",
-    "Self-Deprecation",
-    "Panic Management",
-    "Pretending to Know What's Happening",
-    "Coffee Consumption",
-    "Workplace Survival",
-    "Could I BE any more prepared?",
-    "Chandler-isms",
-  ],
+      "Python",
+      "Django",
+      "FastAPI",
+      "Flask",
+      "AWS",
+      "Lambda",
+      "Amazon ECS",
+      "AWS Rekognition",
+      "S3",
+      "AWS Textract",
+      "OpenSearch",
+      "GitHub Actions",
+      "Terraform",
+      "Ansible",
+      "Docker",
+      "CI/CD",
+      "DRF",
+      "GenAI",
+      "Datadog",
+      "SQL",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "IaC",
+      "Linux",
+      "Agile"
+    ],
 
   /**
    * ─────────────────────────────────────────────────────────────────────────
@@ -171,11 +184,13 @@ window.PORTFOLIO_DATA = {
       "type": "work",
       "period": "Nov 2024 – Present",
       "role": "Python Developer",
-      "company": "HCL Technologies - John Deere",
-      "summary": "Finally got out of data reconfiguration and into a field where I can use my actual skills: making things sound better than they are.",
+      "company": "HCLTech",
+      "summary": "Transformed complex machinery data and images into smart, searchable digital formats that unlocked hidden catalog revenue. Built high-accuracy cloud pipelines and AI tools that eliminated manual bottlenecks and speeded up team production.",
       "highlights": [
-        "Engineered an pipeline using AWS Rekognition to automate data extraction from legacy engineering diagrams.",
-        "Deployed end-to-end cloud-native pipelines and APIs leveraging AWS ECS, Lambda, S3, OpenSearch, and cloudwatch for monitoring and alerting.",
+        "Owned backend development across services using Python, Flask, AWS, including design, development, deployment, and production support.",
+        "Designed and built a scalable image processing pipeline using AWS Lambda, ECS, & OpenSearch to dynamically extract and serve hotspot coordinates for catalog graphics.",
+        "Implemented Datadog monitoring (dashboards, alerts, tracing) to track API latency and failures.",
+        "Worked on a Proof of Concept (PoC) integrating Generative AI with computer vision outputs to automate the identification and classification of legacy machinery parts.",
         "Developed high-performance REST APIs from scratch using FastAPI to serve complex coordinate data to downstream users."
       ]
     },
@@ -184,7 +199,7 @@ window.PORTFOLIO_DATA = {
       "period": "Aug 2020 – Oct 2024",
       "role": "Python Developer",
       "company": "TCS (Tata Consultancy Services)",
-      "summary": "Still genuinely unsure what I did here. Something involving data. Numbers were involved. Very important.",
+      "summary": "Leveraged full-stack development and security automation to safeguard enterprise infrastructure while drastically optimizing operational overhead. Spearheaded large-scale data architecture transformations that directly enhanced system performance, business continuity, and delivery velocity.",
       "highlights": [
         "Architected scalable enterprise-grade web applications utilizing Django's MVT paradigm, optimized database interactions with Django ORM, along with secure authentication/authorization mechanisms.",
         "Designed, built, and consumed secure and efficient RESTful APIs utilizing the Django REST Framework to facilitate seamless data exchange between microservices.",
@@ -195,10 +210,10 @@ window.PORTFOLIO_DATA = {
     },
     {
       "type": "education",
-      "period": "1989",
+      "period": "2023",
       "role": "Masters in Computer Applications - CGPA 8.75",
       "company": "SASTRA University, Thanjavur",
-      "summary": "Survived high school through humor and avoiding eye contact.",
+      "summary": "Distance Learning program",
       "highlights": [
         "Mastered advanced Python frameworks, including Django and fastapi for high-performance web applications.",
         "Specialized in Artificial Intelligence and Machine Learning concepts, applying them to real-world data processing tasks.",
@@ -207,7 +222,7 @@ window.PORTFOLIO_DATA = {
     },
     {
       "type": "education",
-      "period": "1996",
+      "period": "2020",
       "role": "Bachelor's in Computer Science - CGPA 8.91",
       "company": "MGM's College, Nanded",
       "summary": "",
@@ -467,7 +482,7 @@ window.PORTFOLIO_DATA = {
    */
   "contact": {
     "copy": "I’m interested in projects where technical challenges are high and the 'fluff' is low. If you need a developer who prioritizes system integrity and isn't afraid to challenge the status quo to get to a better solution—let’s talk. I keep my communication direct and my code cleaner.",
-    "resumeUrl": "#",
+    "resumeUrl": "images/MaheshJadhav.pdf",
     "links": [
       { "label": "Email",    "faIcon": "fa-solid fa-envelope",     "value": "mj241199@gmail.com", "url": "mailto:mj241199@gmail.com" },
       { "label": "LinkedIn", "faIcon": "fa-brands fa-linkedin-in", "value": "linkedin.com/in/ursmaheshj", "url": "https://www.linkedin.com/in/ursmaheshj/" },
@@ -496,14 +511,14 @@ window.PORTFOLIO_DATA = {
       "id": "cursorTrail",
       "label": "Cursor Trail",
       "description": "Elegant particles follow your cursor movement",
-      "defaultEnabled": false,
+      "defaultEnabled": true,
       "icon": "fa-solid fa-wand-magic-sparkles"
     },
     "readingProgress": {
       "id": "readingProgress",
       "label": "Reading Progress Bar",
       "description": "Shows scroll progress at the top of pages",
-      "defaultEnabled": false,
+      "defaultEnabled": true,
       "icon": "fa-solid fa-chart-simple"
     },
     "soundEffects": {

@@ -387,10 +387,28 @@ window.PORTFOLIO_DATA = {
    */
   "certificates": [
   {
+    "title": "Django 3 - Full Stack Websites with Python Web Development",
+    "issuer": "Udemy",
+    "date": "2022",
+    "credentialUrl": "https://www.udemy.com/certificate/UC-4bda7bdd-723d-4f8f-9e23-152b2a015b44",
+    "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-4bda7bdd-723d-4f8f-9e23-152b2a015b44.jpg",
+    "credentialId": "UC-4bda7bdd-723d-4f8f-9e23-152b2a015b44",
+    "keywords": ["Python", "Django", "Udemy"]
+  },
+  {
+    "title": "Creating Python APIs - Django Rest Framework",
+    "issuer": "Udemy",
+    "date": "2022",
+    "credentialUrl": "https://www.udemy.com/certificate/UC-514fbd9a-0b22-4394-a715-7ac89775c991",
+    "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-514fbd9a-0b22-4394-a715-7ac89775c991.jpg",
+    "credentialId": "UC-514fbd9a-0b22-4394-a715-7ac89775c991",
+    "keywords": ["Python", "Django", "Udemy"]
+  },
+  {
     "title": "AWS Certified Cloud Practitioner 2021",
     "issuer": "Udemy",
     "date": "2021",
-    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-434a00da-8e9c-4509-8c33-709f87b59d86.jpg?v=1629070815000",
+    "credentialUrl": "https://www.udemy.com/certificate/UC-434a00da-8e9c-4509-8c33-709f87b59d86",
     "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-434a00da-8e9c-4509-8c33-709f87b59d86.jpg?v=1629070815000",
     "credentialId": "UC-434a00da-8e9c-4509-8c33-709f87b59d86",
     "keywords": ["AWS", "Cloud", "Udemy"]
@@ -399,7 +417,7 @@ window.PORTFOLIO_DATA = {
     "title": "2021 Complete Python Bootcamp from Zero to Hero in Python",
     "issuer": "Udemy",
     "date": "2021",
-    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-71621593-ba1d-43e9-a68c-d2a86fcc73af.jpg",
+    "credentialUrl": "https://www.udemy.com/certificate/UC-71621593-ba1d-43e9-a68c-d2a86fcc73af",
     "imageUrl": "https://raw.githubusercontent.com/ursmaheshj/Course-Completion-Certificates/master/Certificates/Udemy/2021CompletePythonBootcamp.jpg",
     "credentialId": "UC-71621593-ba1d-43e9-a68c-d2a86fcc73af",
     "keywords": ["Python", "Udemy"]
@@ -408,7 +426,7 @@ window.PORTFOLIO_DATA = {
     "title": "Build Responsive Real World Websites with HTML5 and CSS3",
     "issuer": "Udemy",
     "date": "2021",
-    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-8aeeda9f-3b9c-4318-9dfd-c96d396d988b.jpg",
+    "credentialUrl": "https://www.udemy.com/certificate/UC-8aeeda9f-3b9c-4318-9dfd-c96d396d988b",
     "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-8aeeda9f-3b9c-4318-9dfd-c96d396d988b.jpg",
     "credentialId": "UC-8aeeda9f-3b9c-4318-9dfd-c96d396d988b",
     "keywords": ["Web Development", "HTML", "CSS", "Udemy"]
@@ -417,7 +435,7 @@ window.PORTFOLIO_DATA = {
     "title": "DevOps, CI/CD(Continuous Integration/Delivery) for Beginners",
     "issuer": "Udemy",
     "date": "2021",
-    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-9c070957-bf6e-4124-8ec4-6566db150708.jpg",
+    "credentialUrl": "https://www.udemy.com/certificate/UC-9c070957-bf6e-4124-8ec4-6566db150708",
     "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-9c070957-bf6e-4124-8ec4-6566db150708.jpg",
     "credentialId": "UC-9c070957-bf6e-4124-8ec4-6566db150708",
     "keywords": ["DevOps", "CI/CD", "Udemy"]
@@ -426,7 +444,7 @@ window.PORTFOLIO_DATA = {
     "title": "Learn Figma-UI/UX Design Essential Training",
     "issuer": "Udemy",
     "date": "2021",
-    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-3f6414f5-f5ba-4a00-949a-8843b35f07f7.jpg",
+    "credentialUrl": "https://www.udemy.com/certificate/UC-3f6414f5-f5ba-4a00-949a-8843b35f07f7",
     "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-3f6414f5-f5ba-4a00-949a-8843b35f07f7.jpg",
     "credentialId": "UC-3f6414f5-f5ba-4a00-949a-8843b35f07f7",
     "keywords": ["UI/UX", "Figma", "Udemy"]
@@ -435,7 +453,7 @@ window.PORTFOLIO_DATA = {
     "title": "Python OOP: Four Pillars of OOP in Python 3 for Beginners",
     "issuer": "Udemy",
     "date": "2020",
-    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-74fc91a1-ed55-4a8f-a001-65016acca24c.jpg",
+    "credentialUrl": "https://www.udemy.com/certificate/UC-74fc91a1-ed55-4a8f-a001-65016acca24c",
     "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-74fc91a1-ed55-4a8f-a001-65016acca24c.jpg",
     "credentialId": "UC-74fc91a1-ed55-4a8f-a001-65016acca24c",
     "keywords": ["Python", "Udemy"]

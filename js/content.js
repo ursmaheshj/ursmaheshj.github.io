@@ -186,9 +186,11 @@ window.PORTFOLIO_DATA = {
       "company": "TCS (Tata Consultancy Services)",
       "summary": "Still genuinely unsure what I did here. Something involving data. Numbers were involved. Very important.",
       "highlights": [
-        "Architected enterprise-grade web applications using Django Framework.",
-        "Reduced manual operational overhead by 60% through Ansible and Python-based service automation.",
-        "Led the migration of large-scale datasets from CDH to CDP, ensuring zero data loss and compatibility."
+        "Architected scalable enterprise-grade web applications utilizing Django's MVT paradigm, optimized database interactions with Django ORM, along with secure authentication/authorization mechanisms.",
+        "Designed, built, and consumed secure and efficient RESTful APIs utilizing the Django REST Framework to facilitate seamless data exchange between microservices.",
+        "Orchestrated the end-to-end migration of large-scale datasets from CDH to CDP environments, managing complex configuration changes, data integrity validation, and compatibility testing.",
+        "Automated Linux services like nginx, tomcat, httpd using Python and Ansible along with cron jobs and shell scripting, resulting in a 60% reduction in manual intervention.",
+        "Implemented DevOps practices and automated CI/CD pipelines using Jenkins, Docker, and Git to minimize release deployment cycles and maximize software delivery efficiency.",
       ]
     },
     {
@@ -305,7 +307,7 @@ window.PORTFOLIO_DATA = {
         "images/projects/mjfolio4.png",
         "images/projects/mjfolio5.png",
       ],
-      "stack": ["HTML", "CSS", "JavaScript"],
+      "stack": ["HTML", "CSS",  "JavaScript"],
       "details": [
         "Designed a responsive layout to ensure optimal viewing across devices.",
         "Shows blog posts dynamically from Medium RSS feed to keep content fresh without manual updates.",
@@ -384,70 +386,61 @@ window.PORTFOLIO_DATA = {
    * Keywords are used for filtering on the certificates page
    */
   "certificates": [
-    {
-      "title": "Pretending To Understand DevOps & CI/CD While Looking Competent",
-      "issuer": "Udemy",
-      "date": "2021",
-      "credentialUrl": "https://www.udemy.com/certificate/UC-your-certificate-id/",
-      "imageUrl": "https://unsplash.com/photos/gkiZ-F3yPiY/download?force=true&w=640",
-      "credentialId": null,
-      "keywords": ["Fake It Till You Make It", "Deflection"]
-    },
-    {
-      "title": "AWS Certified: I Can Talk About Clouds Without Crying",
-      "issuer": "Amazon Web Services",
-      "date": "2022",
-      "credentialUrl": "https://www.credly.com/badges/your-badge-id",
-      "imageUrl": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
-      "credentialId": "AWS-ASA-12345",
-      "keywords": ["Cloud", "Why Is This So Complicated?"]
-    },
-    {
-      "title": "Microsoft Certified: Azure Fundamentals (Ask Me Anything, I Know Nothing)",
-      "issuer": "Microsoft",
-      "date": "2022",
-      "credentialUrl": "https://www.credly.com/badges/your-badge-id",
-      "imageUrl": "https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png",
-      "credentialId": "AZ-900-12345",
-      "keywords": ["Cloud", "Still Confused"]
-    },
-    {
-      "title": "Java: From 'What Is This?' to 'I Still Don't Know'",
-      "issuer": "Udemy",
-      "date": "2020",
-      "credentialUrl": "https://www.udemy.com/certificate/UC-your-certificate-id/",
-      "imageUrl": "https://unsplash.com/photos/gkiZ-F3yPiY/download?force=true&w=640",
-      "credentialId": null,
-      "keywords": ["Programming", "Survivorship Bias"]
-    },
-    {
-      "title": "JavaScript: Making Websites Do Things (Poorly)",
-      "issuer": "LinkedIn Learning",
-      "date": "2021",
-      "credentialUrl": "https://www.linkedin.com/learning/certificates/your-certificate-id",
-      "imageUrl": "https://unsplash.com/photos/JLj_NbvlDDo/download?force=true&w=640",
-      "credentialId": null,
-      "keywords": ["Web Development", "Panic Debugging"]
-    },
-    {
-      "title": "UI/UX Design: How To Make Things Look Good (I Can't)",
-      "issuer": "Coursera",
-      "date": "2021",
-      "credentialUrl": "https://www.coursera.org/account/accomplishments/certificate/your-certificate-id",
-      "imageUrl": "https://unsplash.com/photos/6sG939tB3XQ/download?force=true&w=640",
-      "credentialId": "COURSERA-12345",
-      "keywords": ["Aesthetics", "My Apartment Begs To Differ"]
-    },
-    {
-      "title": "Managing Virtual Teams: A Guide To Pretending You're In Control",
-      "issuer": "LinkedIn Learning",
-      "date": "2022",
-      "credentialUrl": "https://www.linkedin.com/learning/certificates/your-certificate-id",
-      "imageUrl": "https://unsplash.com/photos/JLj_NbvlDDo/download?force=true&w=640",
-      "credentialId": null,
-      "keywords": ["Leadership", "Organized Chaos"]
-    }
-  ],
+  {
+    "title": "AWS Certified Cloud Practitioner 2021",
+    "issuer": "Udemy",
+    "date": "2021",
+    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-434a00da-8e9c-4509-8c33-709f87b59d86.jpg?v=1629070815000",
+    "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-434a00da-8e9c-4509-8c33-709f87b59d86.jpg?v=1629070815000",
+    "credentialId": "UC-434a00da-8e9c-4509-8c33-709f87b59d86",
+    "keywords": ["AWS", "Cloud", "Udemy"]
+  },
+  {
+    "title": "2021 Complete Python Bootcamp from Zero to Hero in Python",
+    "issuer": "Udemy",
+    "date": "2021",
+    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-71621593-ba1d-43e9-a68c-d2a86fcc73af.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/ursmaheshj/Course-Completion-Certificates/master/Certificates/Udemy/2021CompletePythonBootcamp.jpg",
+    "credentialId": "UC-71621593-ba1d-43e9-a68c-d2a86fcc73af",
+    "keywords": ["Python", "Udemy"]
+  },
+  {
+    "title": "Build Responsive Real World Websites with HTML5 and CSS3",
+    "issuer": "Udemy",
+    "date": "2021",
+    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-8aeeda9f-3b9c-4318-9dfd-c96d396d988b.jpg",
+    "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-8aeeda9f-3b9c-4318-9dfd-c96d396d988b.jpg",
+    "credentialId": "UC-8aeeda9f-3b9c-4318-9dfd-c96d396d988b",
+    "keywords": ["Web Development", "HTML", "CSS", "Udemy"]
+  },
+  {
+    "title": "DevOps, CI/CD(Continuous Integration/Delivery) for Beginners",
+    "issuer": "Udemy",
+    "date": "2021",
+    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-9c070957-bf6e-4124-8ec4-6566db150708.jpg",
+    "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-9c070957-bf6e-4124-8ec4-6566db150708.jpg",
+    "credentialId": "UC-9c070957-bf6e-4124-8ec4-6566db150708",
+    "keywords": ["DevOps", "CI/CD", "Udemy"]
+  },
+  {
+    "title": "Learn Figma-UI/UX Design Essential Training",
+    "issuer": "Udemy",
+    "date": "2021",
+    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-3f6414f5-f5ba-4a00-949a-8843b35f07f7.jpg",
+    "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-3f6414f5-f5ba-4a00-949a-8843b35f07f7.jpg",
+    "credentialId": "UC-3f6414f5-f5ba-4a00-949a-8843b35f07f7",
+    "keywords": ["UI/UX", "Figma", "Udemy"]
+  },
+  {
+    "title": "Python OOP: Four Pillars of OOP in Python 3 for Beginners",
+    "issuer": "Udemy",
+    "date": "2020",
+    "credentialUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-74fc91a1-ed55-4a8f-a001-65016acca24c.jpg",
+    "imageUrl": "https://udemy-certificate.s3.amazonaws.com/image/UC-74fc91a1-ed55-4a8f-a001-65016acca24c.jpg",
+    "credentialId": "UC-74fc91a1-ed55-4a8f-a001-65016acca24c",
+    "keywords": ["Python", "Udemy"]
+  }
+],
 
   /**
    * ─────────────────────────────────────────────────────────────────────────

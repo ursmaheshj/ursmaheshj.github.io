@@ -511,14 +511,14 @@ window.PORTFOLIO_DATA = {
       "id": "cursorTrail",
       "label": "Cursor Trail",
       "description": "Elegant particles follow your cursor movement",
-      "defaultEnabled": true,
+      "defaultEnabled": false,
       "icon": "fa-solid fa-wand-magic-sparkles"
     },
     "readingProgress": {
       "id": "readingProgress",
       "label": "Reading Progress Bar",
       "description": "Shows scroll progress at the top of pages",
-      "defaultEnabled": true,
+      "defaultEnabled": false,
       "icon": "fa-solid fa-chart-simple"
     },
     "soundEffects": {

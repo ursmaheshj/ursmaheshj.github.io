@@ -411,6 +411,15 @@ window.PORTFOLIO_DATA = {
     "keywords": ["Python", "Django", "Udemy"]
   },
   {
+    "title": "Microsoft Certified: Azure Fundamentals",
+    "issuer": "Udemy",
+    "date": "2022",
+    "credentialUrl": "https://learn.microsoft.com/api/credentials/share/en-us/ursmaheshj/691837448D74BE9F?sharingId=A12751EB66A1EBC6",
+    "imageUrl": "images/certifications/AzureFundamentals.png",
+    "credentialId": "691837448D74BE9F",
+    "keywords": ["Azure", "Cloud", "Microsoft"]
+  },
+  {
     "title": "Creating Python APIs - Django Rest Framework",
     "issuer": "Udemy",
     "date": "2022",
